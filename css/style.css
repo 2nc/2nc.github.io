@@ -637,7 +637,7 @@ h3.subheading-agileits-w3layouts {
 }
 
 .about-border-w3ls {
-	position: absolute;
+	position: relative;
 	padding: 24.95em 21em;
 	border: 24px solid #000;
 }
@@ -1504,9 +1504,9 @@ h3.subheading-agileits-w3layouts {
 	}
 	.edu-img-agileits,
 	.exp-img-agileits {
-		width: 100%;
-		min-height: 400px;
-		float: none;
+	width: 100%;
+	min-height: 400px;
+	float: left;
 	}
 	.about-left-agileits {
 		margin-bottom: 2.5em;
