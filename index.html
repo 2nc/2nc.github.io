@@ -26,6 +26,21 @@
 	<link href="http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700" rel="stylesheet">
 	<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 	<!--//web-fonts-->
+    <style type="text/css">
+            *{margin: 0;padding:0;}
+            .index-vedio{
+	width: 340px;
+	height: 300px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: 50px;
+	margin-left: auto;
+}
+            .index-vedio img{
+	width: 340px;
+	height: 300px;
+}
+     </style>
 </head>
 
 <body>
@@ -377,44 +392,67 @@
 			<div class="w3ls_gallery_grids">
 				<div class="col-md-4 w3_agile_gallery_grid">
 					<div class="agile_gallery_grid">
-						<a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="images/1.jpg">
+						<a title="Development of embedded temperature measurement system" href="images/1.jpg">
 							<div class="agile_gallery_grid1">
-								<img src="images/1.jpg" alt=" " class="img-responsive" />
+								<img src="images/1.jpg" alt=" " width="855" height="330" class="img-responsive" />
 							</div>
 						</a>
 					</div>
 					<div class="agile_gallery_grid">
-						<a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="images/2.jpg">
+                    	<div class="index-vedio"><img src="./images/2.jpg" title="Design of intelligent car based on freescale XS128 MCU(click to watch video)"></div>
+						<script>
+                              //视频播放
+                              var indexVedio = document.querySelector(".index-vedio");
+                              indexVedio.onclick = function(){
+                                indexVedio.innerHTML = "<iframe width=100% height=100% src='images/001.mp4' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>";
+                              }
+                        </script>
+                   
+<!--						<a title="." href="images/2.jpg">
 							<div class="agile_gallery_grid1">
 								<img src="images/2.jpg" alt=" " class="img-responsive" />
 							</div>
 						</a>
+-->                    
 					</div>
+                   
+                    <div class="agile_gallery_grid">
+						<div class="index-vedio"><img src="./images/3.jpg" title="How depth-first search algorithm works in maze(click to watch video)"></div>
+						<script>
+                              //视频播放
+                              var indexVedio1 = document.querySelector(".index-vedio");
+                              indexVedio1.onclick = function(){
+                                indexVedio1.innerHTML = "<iframe width=100% height=100% src='images/001.mp4' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>";
+                              }
+                        </script>
+					</div>
+             <!--
 					<div class="agile_gallery_grid">
-						<a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="images/3.jpg">
+						<a title="." href="images/3.jpg">
 							<div class="agile_gallery_grid1">
 								<img src="images/3.jpg" alt=" " class="img-responsive" />
 							</div>
 						</a>
 					</div>
+               -->
 				</div>
 				<div class="col-md-4 w3_agile_gallery_grid">
 					<div class="agile_gallery_grid">
-						<a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="images/4.jpg">
+						<a title="." href="images/4.jpg">
 							<div class="agile_gallery_grid1">
 								<img src="images/4.jpg" alt=" " class="img-responsive" />
 							</div>
 						</a>
 					</div>
 					<div class="agile_gallery_grid">
-						<a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="images/5.jpg">
+						<a title="." href="images/5.jpg">
 							<div class="agile_gallery_grid1">
 								<img src="images/5.jpg" alt=" " class="img-responsive" />
 							</div>
 						</a>
 					</div>
 					<div class="agile_gallery_grid">
-						<a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="images/6.jpg">
+						<a title="." href="images/6.jpg">
 							<div class="agile_gallery_grid1">
 								<img src="images/6.jpg" alt=" " class="img-responsive" />
 							</div>
@@ -423,21 +461,21 @@
 				</div>
 				<div class="col-md-4 w3_agile_gallery_grid">
 					<div class="agile_gallery_grid">
-						<a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="images/7.jpg">
+						<a title="." href="images/7.jpg">
 							<div class="agile_gallery_grid1">
 								<img src="images/7.jpg" alt=" " class="img-responsive" />
 							</div>
 						</a>
 					</div>
 					<div class="agile_gallery_grid">
-						<a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="images/8.jpg">
+						<a title="." href="images/8.jpg">
 							<div class="agile_gallery_grid1">
 								<img src="images/8.jpg" alt=" " class="img-responsive" />
 							</div>
 						</a>
 					</div>
 					<div class="agile_gallery_grid">
-						<a title="Donec sapien massa, placerat ac sodales ac, feugiat quis est." href="images/9.jpg">
+						<a title="." href="images/9.jpg">
 							<div class="agile_gallery_grid1">
 								<img src="images/9.jpg" alt=" " class="img-responsive" />
 							</div>
