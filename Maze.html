@@ -6,6 +6,27 @@
 </head>
 
 <body>
+
+<!--
 <iframe width=100% height=100% src='video/maze.mp4'  style="width:1024px;height:590px;" frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>
+-->
+<div align="center">
+    <applet code="Maze.class" width="1024" height="590" codebase="./Maze">
+    Sorry, your browser was not Java-enabled, so a Maze Java applet could not appear here. But you can watch the video instead.
+    </applet>
+    <p>You can press the "start" button to run the program.(If it is shown above)</p>
+    
+    <br />
+    
+    <video width="800" height="600" controls="controls" autoplay="autoplay">
+      <source src="video/maze.mp4" type="video/mp4" />
+      <source src="video/maze.ogg" type="video/ogg" />
+      <source src="video/maze.webm" type="video/webm" />
+      <object data="maze.mp4" width="800" height="600">
+        <embed src="maze.swf" width="800" height="600" />
+      </object>
+    </video>
+    <br />
+</div>
 </body>
 </html>
